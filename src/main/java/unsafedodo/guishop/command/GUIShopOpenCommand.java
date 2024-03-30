@@ -24,7 +24,7 @@ public class GUIShopOpenCommand {
                 .then(CommandManager.literal("open")
                         .then(CommandManager.argument("shopName", StringArgumentType.string())
                                 .then(CommandManager.argument("playerName", EntityArgumentType.player())
-                                .requires(Permissions.require("guishop.open",2))
+                                .requires(Permissions.require("guishop.open"))
                                 .executes(GUIShopOpenCommand::run)))));
     }
 
