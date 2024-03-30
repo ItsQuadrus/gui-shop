@@ -16,16 +16,16 @@ All commands can be used by admins (permission level 3) or by users/groups with 
 
 | Description                | Command                                                                                              | Permission               | 
 |----------------------------|------------------------------------------------------------------------------------------------------|--------------------------|
-| Main command               | `/guishop`                                                                                           | `automessage.main`       |
-| Create a shop              | `/guishop create <shopName>`                                                                         | `automessage.create`     |
-| Delete a shop              | `/guishop delete <shopName> `                                                                        | `automessage.delete`     |
-| Add an item in a shop      | `/guishop additem <shopName> <itemMaterial> <buyPrice> <sellPrice> <description> <nbt> <quantities>` | `automessage.additem`    |
-| Remove an item from a shop | `/guishop removeitem <shopName> <itemName>`                                                          | `automessage.removeitem` |
-| Open a shop for a player   | `/guishop open <shopName> <playerName>`                                                              | `automessage.open`       |
-| List all shops             | `/guishop list`                                                                                      | `automessage.list`       |
-| List all items in a shop   | `/guishop list <shopName>`                                                                           | `automessage.list`       |
-| Force save config          | `/guishop forcesave`                                                                                 | `automessage.forcesave`  |
-| Reload config file         | `/automessage reload`                                                                                | `automessage.reload`     |
+| Main command               | `/guishop`                                                                                           | `guishop.main`       |
+| Create a shop              | `/guishop create <shopName>`                                                                         | `guishop.create`     |
+| Delete a shop              | `/guishop delete <shopName> `                                                                        | `guishop.delete`     |
+| Add an item in a shop      | `/guishop additem <shopName> <itemMaterial> <buyPrice> <sellPrice> <description> <nbt> <quantities>` | `guishop.additem`    |
+| Remove an item from a shop | `/guishop removeitem <shopName> <itemName>`                                                          | `guishop.removeitem` |
+| Open a shop for a player   | `/guishop open <shopName> <playerName>`                                                              | `guishop.open`       |
+| List all shops             | `/guishop list`                                                                                      | `guishop.list`       |
+| List all items in a shop   | `/guishop list <shopName>`                                                                           | `guishop.list`       |
+| Force save config          | `/guishop forcesave`                                                                                 | `guishop.forcesave`  |
+| Reload config file         | `/guishop reload`                                                                                    | `guishop.reload`     |
 
 ### Commands examples
 Create a shop: `/guishop create "Test shop"`"
